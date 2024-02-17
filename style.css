@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.follow{
+    float: inline-end;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.follow:hover{
+    text-decoration: underline;
+}
+#search{
+    position: relative;
+}
+
+#search-icon{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.story-section{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.story{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.storyphoto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+    margin-right: 7px;
+    object-fit: cover;
+   
+  }
+  
+  .storytext {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: black;
+    margin-right: 7px;
+  }
+  .fa-ellipsis-h{
+    float: inline-end;
+    margin-top: 3px;
+   cursor: pointer;
+  }
+
+.gonderi-icon{
+    color: black; 
+    font-size: 20px;
+    margin-left: 10px;   
+}
+
+.rightpanellinks{
+    color: #0095F6;
+    margin: 15px 0;
+    cursor: pointer;
+    transition: all .3s;
+}
+.rightpanellinks:hover{
+    text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 45px;
+}
+
+
+.credit{
+    color: rgb(238, 39, 82);
+}
